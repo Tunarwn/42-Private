@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/tturna/Downloads/So_Long-main'
+make -C minilibx
+make -C ft_printf
+echo "\033[0;95mMINILIBX compile OLDU"
+gcc -glldb src/utils_1.c src/main.c src/ft_split.c src/create.c src/move.c src/control.c -framework OpenGL -framework AppKit -o so_long minilibx/libmlx.a ft_printf/libftprintf.a  -I inc
+make: Leaving directory `/Users/tturna/Downloads/So_Long-main'
+ 

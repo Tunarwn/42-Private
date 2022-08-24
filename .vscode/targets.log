@@ -1,0 +1,279 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Wed Aug 24 17:57:32 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/tturna/Downloads/So_Long-main
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"tr","availableLanguages":{"*":"tr"},"_languagePackId":"1f2aedaeb27219a5433000f2a96da245.tr","_translationsConfigFile":"/Users/tturna/Library/Application Support/Code/clp/1f2aedaeb27219a5433000f2a96da245.tr/tcf.json","_cacheRoot":"/Users/tturna/Library/Application Support/Code/clp/1f2aedaeb27219a5433000f2a96da245.tr","_resolvedLanguagePackCoreLocation":"/Users/tturna/Library/Application Support/Code/clp/1f2aedaeb27219a5433000f2a96da245.tr/054a9295330880ed74ceaedda236253b4f39a335","_corruptedFile":"/Users/tturna/Library/Application Support/Code/clp/1f2aedaeb27219a5433000f2a96da245.tr/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = /Users/tturna/Library/Application Support/Code/CachedData/054a9295330880ed74ceaedda236253b4f39a335
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/zz/zyxvpxvq6csfxvn_n000cbfc0032vl/T/vscode-ipc-2dcd51a6-ec6a-4656-b1e1-036cf14d5faf.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Library/Apple/usr/bin
+# environment
+LaunchInstanceID = 8FED4098-8DE3-4949-8BF3-CCD0CA59F227
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `Makefile', line 1)
+MINILIBX = minilibx/libmlx.a
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.wslh8eJVEb/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/tturna/Downloads/So_Long-main
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /Users/tturna
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+LOGNAME = tturna
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `Makefile', line 7)
+SRCS = src/utils_1.c src/main.c src/ft_split.c src/create.c src/move.c src/control.c
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 2)
+CC = gcc -glldb
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = tturna
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 6)
+INCLUDE = inc
+# makefile (from `Makefile', line 4)
+NAME = so_long
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 5)
+LFLAGS = -framework OpenGL -framework AppKit
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/zz/zyxvpxvq6csfxvn_n000cbfc0032vl/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/tturna/Library/Application Support/Code/1.56.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = com.apple.xpc.launchd.oneshot.0x10000001.Electron
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x18B73:0x23:0x18
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+SECURITYSESSIONID = 186a8
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 3)
+FLAGS = -Wall -Wextra -Werror
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 2693
+# variable set hash-table stats:
+# Load=70/1024=7%, Rehash=0, Collisions=2/98=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777225, inode 440848): 13 files, no impossibilities.
+
+# 13 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+minilibx/libmlx.a:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-24 16:50:00
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 15):
+	make -C minilibx
+	make -C ft_printf
+	@echo "\033[0;95mMINILIBX compile OLDU"
+	
+
+all: so_long
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-24 15:43:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+fclean: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 26):
+	rm -rf $(NAME)
+	make -C minilibx clean
+	make -C ft_printf fclean
+	
+
+norm:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 31):
+	norminette src/*.c
+	norminette inc/*.h
+	norminette ft_printf/*.c
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 20):
+	./$(NAME) maps/map1.ber
+	
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 23):
+	rm -rf $(OBJ)
+	
+
+so_long: minilibx/libmlx.a
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-24 16:50:00
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 12):
+	$(CC) $(SRCS) $(LFLAGS) -o $(NAME) minilibx/libmlx.a ft_printf/libftprintf.a  -I $(INCLUDE)
+	
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/30=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Aug 24 17:57:32 2022
+
+ 
